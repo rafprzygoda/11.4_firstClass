@@ -7,8 +7,6 @@ function Phone(brand, price, color, screen, memory, camera) {
     this.camera = camera;
 }
 
-
-
 Phone.prototype.printInfo = function() {
     console.log("The phone brand is " + this.brand + ", color is " + this.color + " and the price is " + this.price + ". Phone have " + this.screen + " screen and have " + this.memory + " memory and his camera have " + this.camera + ".");
 };
